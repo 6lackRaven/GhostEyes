@@ -1,0 +1,13 @@
+GhostEyes - Ethical Port Scanner by 6lackRaven
+
+This tool is provided for ethical hacking, cybersecurity training,
+and authorized penetration testing only.
+
+Do not use this software against any system or network without full
+permission from the owner. Unauthorized scanning may be illegal
+depending on your country or region.
+
+The developer is not liable for any misuse or consequences that result
+from using this tool improperly. YOU are responsible for your actions.
+
+Use responsibly. Stay ethical.
