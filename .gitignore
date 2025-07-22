@@ -1,21 +1,16 @@
-# Python bytecode
+# Byte-compiled files
 __pycache__/
-*.py[cod]
-*.pyo
+*.pyc
 
-# Virtual environments
-env/
+# Scan results
+*.json
+*.html
+*.txt
+*.csv
+
+# Virtual environment
 venv/
-.venv/
-
-# IDE/editor configs
-.vscode/
-.idea/
+.env
 
 # System files
 .DS_Store
-Thumbs.db
-
-# Logs or output
-*.log
-*.out
