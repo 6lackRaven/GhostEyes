@@ -60,7 +60,7 @@ GhostEyes is developed for **AUTHORIZED SECURITY TESTING AND LEGITIMATE EDUCATIO
 
 ## ETHICAL GUIDELINES
 1. **Always obtain proper authorization** before using GhostEyes
-2. **Never target systems** you don't own or have permission to test
+2. **Never target systems** you do not own or have permission to test
 3. **Respect privacy** - Do not access or collect personal data
 4. **Comply with all applicable laws** (Computer Fraud and Abuse Act, GDPR, etc.)
 
