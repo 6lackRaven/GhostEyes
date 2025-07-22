@@ -4,6 +4,7 @@ import argparse
 import platform
 import time
 import requests
+import string
 from queue import Queue
 from datetime import datetime
 from pyfiglet import Figlet
@@ -11,6 +12,7 @@ from pyfiglet import Figlet
 # Global variables
 queue = Queue()
 open_ports = []
+
 common_services = {
     21: "FTP", 22: "SSH", 23: "Telnet", 25: "SMTP", 53: "DNS", 80: "HTTP",
     110: "POP3", 143: "IMAP", 443: "HTTPS", 3306: "MySQL", 8080: "HTTP-ALT",
@@ -23,6 +25,9 @@ def print_banner():
     print("[*] by 6lackRaven")
     print("-" * 60)
 
+def clean_banner(raw_banner):
+    return ''.join(c if c.isprintable() else '.' for c in raw_banner)
+
 def portscan(target, port, mode):
     try:
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
@@ -32,7 +37,9 @@ def portscan(target, port, mode):
                 if mode == "banner":
                     try:
                         s.send(b"\r\n")
-                        banner = s.recv(1024).decode(errors="ignore").strip()
+                        banner_bytes = s.recv(1024)
+                        banner = banner_bytes.decode(errors="ignore").strip()
+                        banner = clean_banner(banner)
                     except:
                         banner = "No banner"
                 service = common_services.get(port, "Unknown")
