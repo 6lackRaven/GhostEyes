@@ -1,7 +1,0 @@
-| Command | Function |
-|---------|----------|
-| `net --scan` | ARP subnet scanning |
-| `net --vlan` | VLAN discovery |
-| `net --trace` | Layer 2 traceroute |
-| `web --subdomains` | Subdomain enumeration |
-| `web --bruteforce` | Directory brute-forcing |

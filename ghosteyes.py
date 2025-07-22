@@ -1,3 +1,9 @@
+#!/usr/bin/env python3
+
+# GhostEyes - A powerful network recon tool
+# Copyright (c) 2025 6lackRaven
+# Licensed under the MIT License
+
 
 import asyncio
 import argparse

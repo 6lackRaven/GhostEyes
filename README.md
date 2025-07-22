@@ -75,3 +75,8 @@ By using this software, you acknowledge that:
 - You understand these terms
 - You accept full liability for your actions
 - The developers bear no responsibility for misuse
+
+## LICENSE
+
+GhostEyes is released under the GNU General Public License v3.0 or later.  
+See the [LICENSE](./LICENSE) file for details.
