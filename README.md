@@ -9,10 +9,12 @@
 </p>
 
 # GhostEyes 👁️  
+
 Advanced network recon tool built with Python.
 Advanced cybersecurity toolkit for network reconnaissance, vulnerability discovery, and penetration testing.
 
 ## Features
+
 - Network scanning & host discovery
 - VLAN hopping & Layer 2 attacks
 - Web reconnaissance (subdomains, directories, tech stack)
@@ -20,26 +22,41 @@ Advanced cybersecurity toolkit for network reconnaissance, vulnerability discove
 - Multi-format reporting
 
 ## Installation
+
 ```bash
 git clone https://github.com/6lackRaven/GhostEyes.git
 cd GhostEyes
 pip install -r requirements.txt
+```
 
 ## Usage
 
-# Network scanning
+#### Network scanning
+
+```bash
 sudo ./ghosteyes.py net --scan 192.168.1.0/24
+```
 
-# VLAN discovery
+#### VLAN discovery
+
+```bash
 sudo ./ghosteyes.py net --vlan --duration 60
+```
 
-# Web reconnaissance
+#### Web reconnaissance
+
+```bash
 ./ghosteyes.py web --url https://example.com --tech
+```
 
-# Generate reports
+#### Generate reports
+
+```bash
 ./ghosteyes.py report --file scan_web.json --type html
+```
 
 ## Modules
+
 Command | Function |
 |---------|----------|
 | `net --scan` | ARP subnet scanning |
@@ -51,6 +68,7 @@ Command | Function |
 ## Disclaimer
 
 ## LEGAL NOTICE
+
 GhostEyes is developed for **AUTHORIZED SECURITY TESTING AND LEGITIMATE EDUCATIONAL PURPOSES ONLY**.
 
 🚨 **WARNING: UNAUTHORIZED USE IS ILLEGAL**
@@ -59,12 +77,14 @@ GhostEyes is developed for **AUTHORIZED SECURITY TESTING AND LEGITIMATE EDUCATIO
 - Developers assume no responsibility for unauthorized or illegal use
 
 ## ETHICAL GUIDELINES
+
 1. **Always obtain proper authorization** before using GhostEyes
 2. **Never target systems** you do not own or have permission to test
 3. **Respect privacy** - Do not access or collect personal data
 4. **Comply with all applicable laws** (Computer Fraud and Abuse Act, GDPR, etc.)
 
 ## PROFESSIONAL USE
+
 GhostEyes should only be used by:
 - Certified security professionals
 - Penetration testers with valid contracts
