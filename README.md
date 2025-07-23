@@ -80,3 +80,23 @@ By using this software, you acknowledge that:
 
 GhostEyes is released under the GNU General Public License v3.0 or later.  
 See the [LICENSE](./LICENSE) file for details.
+
+## Contact
+
+If you have any questions, suggestions, or want to collaborate, feel free to reach out:
+
+- **Email:** harleystanislas.raven@gmail.com  
+- **GitHub:** [https://github.com/6lackRaven](https://github.com/6lackRaven)  
+- **FaceBook:** [Harley Stanislas](https://www.facebook.com/profile.php?id=100087273507449)  
+---
+
+## Support
+
+If you find this project useful, you can support me by:
+
+- ⭐️ Starring the repository  
+- Sharing the project with your network  
+- [Sponsoring me on GitHub](https://github.com/sponsors/6lackRaven)  
+- Reporting issues or contributing to the code
+
+Thank you for your support!
