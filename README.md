@@ -92,11 +92,18 @@ If you have any questions, suggestions, or want to collaborate, feel free to rea
 
 ## Support
 
-If you find this project useful, you can support me by:
-
 - ⭐️ Starring the repository  
 - Sharing the project with your network  
-- [Sponsoring me on GitHub](https://github.com/sponsors/6lackRaven)  
 - Reporting issues or contributing to the code
 
-Thank you for your support!
+## 💸 Crypto Donations (Anonymous Support)
+
+If you find my tools useful — like Falcon and GhostEyes — and want to support my work anonymously, you can donate crypto to any of the following addresses:
+
+- **Bitcoin (BTC):** `bc1qvc8y7z2jguzr7e3fvwyf09l3me94mqk06nz3hj`
+- **Ethereum (ETH):** `0x58bc732d4279321f1e4a8ca57ed2ad16ed5a2e15`
+- **USDT (ERC20):** `0x58bc732d4279321f1e4a8ca57ed2ad16ed5a2e15`
+- **BNB (BEP20):** `0x58bc732d4279321f1e4a8ca57ed2ad16ed5a2e15`
+- **Solana (SOL):** `E7x7ak3H6ob2eHbgsbfgVXpEJyVqMPUFPBtkuEUKj2cq`
+
+🙏 Every contribution helps me continue building open-source cybersecurity tools and sharing knowledge with the community. Thank you!
