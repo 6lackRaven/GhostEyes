@@ -14,3 +14,8 @@ venv/
 
 # System files
 .DS_Store
+
+argparse
+asyncio
+sys
+json

@@ -1,7 +1,7 @@
 ## GhostEyes v2 - Offensive Reconnaissance Toolkit
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![License: GPLv3](https://img.shields.io/badge/License-GPLv3-yellow)](https://github.com/6lackRaven/GhostEyes?tab=License-1-ov-file)
 [![GitHub stars](https://img.shields.io/github/stars/6lackRaven/GhostEyes?style=social)](https://github.com/6lackRaven/GhostEyes)
 
 <p align="center">
