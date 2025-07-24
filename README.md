@@ -78,7 +78,10 @@ LEGAL NOTICE
 
 GhostEyes is strictly intended for authorized security testing and educational purposes only.
 
-🚨 WARNING: UNAUTHORIZED USE IS ILLEGAL
+
+---
+
+## 🚨 WARNING: UNAUTHORIZED USE IS ILLEGAL
 
 - You must have explicit written permission to scan or test any network or system.
 
@@ -117,8 +120,9 @@ GhostEyes is intended for use by:
 
 - Educational institutions in controlled environments
 
+---
 
-By using this tool, you confirm that:
+## 📝 By using this tool, you confirm that:
 
 1. You understand and accept these terms.
 
@@ -138,7 +142,7 @@ See the LICENSE file for full terms.
 
 ---
 
-📬 Contact
+## 📬 Contact
 
 If you have questions, feedback, or want to collaborate:
 ```
