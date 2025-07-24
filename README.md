@@ -167,6 +167,32 @@ You can support GhostEyes by:
 - 🐛 Reporting issues or contributing improvements
 
 
+---
+
+
+## 🤝 Contribution
+
+Thank you to everyone who has contributed to GhostEyes through issues, pull requests, and suggestions! Your support helps make this toolkit better and more reliable.
+
+If you'd like to contribute, please:
+
+1. Fork the repository
+
+2. Create a new branch for your changes (git checkout -b feature/your-feature)
+
+3. Make your changes with clear, concise commits
+
+4. Test your changes to ensure they work correctly
+
+5. Push your branch to your fork (git push origin feature/your-feature)
+
+6. Open a Pull Request describing what you’ve done and why
+
+
+Please follow the existing code style and be respectful in discussions.
+
+All contributions, big or small, are appreciated!
+
 
 ---
 
