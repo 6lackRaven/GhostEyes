@@ -1,4 +1,4 @@
-## GhostEyes v2 👁️ - Offensive Reconnaissance Toolkit
+## GhostEyes v2 - Offensive Reconnaissance Toolkit
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -41,17 +41,18 @@ pip install -r requirements.txt
 🔗 Network Scanning
 ```
 sudo ./ghosteyes.py net --scan 192.168.1.0/24
+```
 
 🧠 VLAN Discovery
-
+```
 sudo ./ghosteyes.py net --vlan --duration 60
-
+```
 🌐 Web Reconnaissance
-
+```
 ./ghosteyes.py web --url https://example.com --tech
-
+```
 📝 Report Generation
-
+```
 ./ghosteyes.py report --file scan_web.json --type html
 ```
 
