@@ -10,8 +10,6 @@
 
 ---
 
-## 👁️ What is GhostEyes?
-
 **GhostEyes** is an advanced offensive cybersecurity toolkit built with Python.  
 It is designed for **network reconnaissance**, **vulnerability discovery**, and **penetration testing** — all in one modular and powerful tool.
 
@@ -40,7 +38,7 @@ pip install -r requirements.txt
 
 ## ⚙️ Usage Examples
 
-#🔗 Network Scanning
+🔗 Network Scanning
 ```
 sudo ./ghosteyes.py net --scan 192.168.1.0/24
 
@@ -61,7 +59,7 @@ sudo ./ghosteyes.py net --vlan --duration 60
 
 ## 🧩 Available Modules
 
-#Command	Description
+Command	Description
 ```
 net --scan	ARP-based subnet scanning
 net --vlan	VLAN discovery and hopping
@@ -75,17 +73,17 @@ web --bruteforce	Directory brute-forcing
 
 ## ⚠️ Disclaimer
 
-#LEGAL NOTICE
+LEGAL NOTICE
 
 GhostEyes is strictly intended for authorized security testing and educational purposes only.
 
 🚨 WARNING: UNAUTHORIZED USE IS ILLEGAL
 
-You must have explicit written permission to scan or test any network or system.
+- You must have explicit written permission to scan or test any network or system.
 
-You are solely responsible for how you use this toolkit.
+- You are solely responsible for how you use this toolkit.
 
-The developers are not liable for any misuse.
+- The developers are not liable for any misuse.
 
 
 
@@ -110,22 +108,22 @@ The developers are not liable for any misuse.
 
 GhostEyes is intended for use by:
 
-Certified cybersecurity professionals
+- Certified cybersecurity professionals
 
-Penetration testers with valid contracts
+- Penetration testers with valid contracts
 
-Security researchers with explicit permission
+- Security researchers with explicit permission
 
-Educational institutions in controlled environments
+- Educational institutions in controlled environments
 
 
 By using this tool, you confirm that:
 
-You understand and accept these terms.
+1. You understand and accept these terms.
 
-You take full responsibility for your actions.
+2. You take full responsibility for your actions.
 
-The developers bear no responsibility for misuse.
+3. The developers bear no responsibility for misuse.
 
 
 
@@ -157,11 +155,11 @@ Facebook: Harley Stanislas
 
 You can support GhostEyes by:
 
-⭐️ Starring the repository
+- ⭐️ Starring the repository
 
-🗣️ Sharing it with your network
+- 🗣️ Sharing it with your network
 
-🐛 Reporting issues or contributing improvements
+- 🐛 Reporting issues or contributing improvements
 
 
 
