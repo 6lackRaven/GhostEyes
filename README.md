@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/6lackRaven/GhostEyes?style=social)](https://github.com/6lackRaven/GhostEyes)
 
 <p align="center">
-  <img src="https:private-user-images.githubusercontent.com/202351661/469445619-d59c7e15-68e7-4b9b-9077-0dc9b0bce7d7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMzMzE4NTksIm5iZiI6MTc1MzMzMTU1OSwicGF0aCI6Ii8yMDIzNTE2NjEvNDY5NDQ1NjE5LWQ1OWM3ZTE1LTY4ZTctNGI5Yi05MDc3LTBkYzliMGJjZTdkNy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDcyNFQwNDMyMzlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05NDMwYmRlYzI4MzI1MTA0MTkwOWY4MGQ3NTFkMTQwNzcwNzFmNDhmOWI0OWM4OWMyM2Q5ZTU4MjQ5MTU0OWUxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.15qm8jNpJypDPy3bSB4tFKwPgG03feAXWnqdPtiotvk" alt="GhostEyes Banner" />
+  <img src="https://private-user-images.githubusercontent.com/202351661/469445619-d59c7e15-68e7-4b9b-9077-0dc9b0bce7d7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMzMzI1MzAsIm5iZiI6MTc1MzMzMjIzMCwicGF0aCI6Ii8yMDIzNTE2NjEvNDY5NDQ1NjE5LWQ1OWM3ZTE1LTY4ZTctNGI5Yi05MDc3LTBkYzliMGJjZTdkNy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDcyNFQwNDQzNTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mZWY0ZTA3NTRlNzk2ZTkxNzU4MWNjZGI5NTRlMWQ3MTFmMWRmZjZlZjI1NTNlYzA1ODI2NzMwMjBiNDJlMjBiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.nJnK0tBCARaDry7etMekQubWmg-yGMiDLlBFvinCVqw" alt="GhostEyes Banner" />
 </p>
 
 ---
@@ -40,8 +40,8 @@ pip install -r requirements.txt
 
 ## ⚙️ Usage Examples
 
-🔗 Network Scanning
-
+#🔗 Network Scanning
+```
 sudo ./ghosteyes.py net --scan 192.168.1.0/24
 
 🧠 VLAN Discovery
@@ -55,27 +55,27 @@ sudo ./ghosteyes.py net --vlan --duration 60
 📝 Report Generation
 
 ./ghosteyes.py report --file scan_web.json --type html
-
+```
 
 ---
 
 ## 🧩 Available Modules
 
-Command	Description
-
+#Command	Description
+```
 net --scan	ARP-based subnet scanning
 net --vlan	VLAN discovery and hopping
 net --trace	Layer 2 traceroute
 web --subdomains	Subdomain enumeration
 web --bruteforce	Directory brute-forcing
-
+```
 
 
 ---
 
 ## ⚠️ Disclaimer
 
-LEGAL NOTICE
+#LEGAL NOTICE
 
 GhostEyes is strictly intended for authorized security testing and educational purposes only.
 
@@ -95,12 +95,9 @@ The developers are not liable for any misuse.
 
 1. Always obtain proper authorization before using GhostEyes.
 
-
 2. Never target systems you do not own or have permission to test.
 
-
 3. Respect privacy — do not access or collect personal data.
-
 
 4. Comply with all applicable laws and regulations (e.g., CFAA, GDPR).
 
@@ -145,13 +142,13 @@ See the LICENSE file for full terms.
 📬 Contact
 
 If you have questions, feedback, or want to collaborate:
-
+```
 Email: harleystanislas.raven@gmail.com
 
 Telegram: Thereal6lackRaven
 
 Facebook: Harley Stanislas
-
+```
 
 
 ---
@@ -173,7 +170,7 @@ You can support GhostEyes by:
 ## 💸 Crypto Donations (Anonymous Support)
 
 If you find my tools helpful and want to support future development anonymously:
-
+```
 Bitcoin (BTC): bc1qvc8y7z2jguzr7e3fvwyf09l3me94mqk06nz3hj
 
 Ethereum (ETH): 0x58bC732d4279321F1E4A8cA57eD2Ad16ed5A2e15
@@ -183,6 +180,6 @@ USDT (ERC20): 0x58bC732d4279321F1E4A8cA57eD2Ad16ed5A2e15
 BNB (BEP20): 0x58bC732d4279321F1E4A8cA57eD2Ad16ed5A2e15
 
 Solana (SOL): E7x7ak3H6ob2eHbgsbfgVXpEJyVqMPUFPBtkuEUKj2cq
-
+```
 
 🙏 Every contribution helps me build more open-source tools and share cybersecurity knowledge. Thank you!
