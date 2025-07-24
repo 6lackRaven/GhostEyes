@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/6lackRaven/GhostEyes?style=social)](https://github.com/6lackRaven/GhostEyes)
 
 <p align="center">
-  <img src="https://https://private-user-images.githubusercontent.com/202351661/469445619-d59c7e15-68e7-4b9b-9077-0dc9b0bce7d7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMzMzE4NTksIm5iZiI6MTc1MzMzMTU1OSwicGF0aCI6Ii8yMDIzNTE2NjEvNDY5NDQ1NjE5LWQ1OWM3ZTE1LTY4ZTctNGI5Yi05MDc3LTBkYzliMGJjZTdkNy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDcyNFQwNDMyMzlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05NDMwYmRlYzI4MzI1MTA0MTkwOWY4MGQ3NTFkMTQwNzcwNzFmNDhmOWI0OWM4OWMyM2Q5ZTU4MjQ5MTU0OWUxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.15qm8jNpJypDPy3bSB4tFKwPgG03feAXWnqdPtiotvk" alt="GhostEyes Banner" />
+  <img src="https:private-user-images.githubusercontent.com/202351661/469445619-d59c7e15-68e7-4b9b-9077-0dc9b0bce7d7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMzMzE4NTksIm5iZiI6MTc1MzMzMTU1OSwicGF0aCI6Ii8yMDIzNTE2NjEvNDY5NDQ1NjE5LWQ1OWM3ZTE1LTY4ZTctNGI5Yi05MDc3LTBkYzliMGJjZTdkNy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDcyNFQwNDMyMzlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05NDMwYmRlYzI4MzI1MTA0MTkwOWY4MGQ3NTFkMTQwNzcwNzFmNDhmOWI0OWM4OWMyM2Q5ZTU4MjQ5MTU0OWUxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.15qm8jNpJypDPy3bSB4tFKwPgG03feAXWnqdPtiotvk" alt="GhostEyes Banner" />
 </p>
 
 ---
@@ -33,6 +33,7 @@ It is designed for **network reconnaissance**, **vulnerability discovery**, and 
 git clone https://github.com/6lackRaven/GhostEyes.git
 cd GhostEyes
 pip install -r requirements.txt
+```
 
 
 ---
@@ -147,7 +148,7 @@ If you have questions, feedback, or want to collaborate:
 
 Email: harleystanislas.raven@gmail.com
 
-Youtube: DarkRavenAcademy
+Telegram: Thereal6lackRaven
 
 Facebook: Harley Stanislas
 
