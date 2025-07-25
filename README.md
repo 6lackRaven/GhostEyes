@@ -79,9 +79,9 @@ Global Flags
 
 Flag	Description
 
---version	Show version and author, then exit
---examples	Show common usage examples
---quiet	Suppress verbose logs
+- --version	Show version and author, then exit
+- --examples	Show common usage examples
+- --quiet	Suppress verbose logs
 
 
 
@@ -97,14 +97,14 @@ Options:
 
 Option	Description
 
--i, --interface	Network interface (default: eth0)
--s, --scan CIDR	ARP scan a subnet (e.g., 192.168.1.0/24)
--v, --vlan	Discover VLANs
--t, --track	Track live devices
--r, --trace IP	Layer 2 traceroute to target
--d, --dhcp	Capture DHCP traffic
---duration N	Duration in seconds for vlan/track/dhcp (default: 300)
---output FILE	Where to save results (default: scan_net.json)
+- -i, --interface	Network interface (default: eth0)
+- -s, --scan CIDR	ARP scan a subnet (e.g., 192.168.1.0/24)
+- -v, --vlan	Discover VLANs
+- -t, --track	Track live devices
+- -r, --trace IP	Layer 2 traceroute to target
+- -d, --dhcp	Capture DHCP traffic
+- --duration N	Duration in seconds for vlan/track/dhcp (default: 300)
+- --output FILE	Where to save results (default: scan_net.json)
 
 
 Examples:
@@ -131,12 +131,12 @@ Options:
 
 Option	Description
 
--u, --url	Target URL (required)
--s, --subdomains	Subdomain brute-force wordlist
--b, --bruteforce	Directory brute-force wordlist
--T, --tech	Detect technology stack
--w, --workers	Number of concurrent workers (default: 50)
---output FILE	Where to save results (default: scan_web.json)
+- -u, --url	Target URL (required)
+- -s, --subdomains	Subdomain brute-force wordlist
+- -b, --bruteforce	Directory brute-force wordlist
+- -T, --tech	Detect technology stack
+- -w, --workers	Number of concurrent workers (default: 50)
+- --output FILE	Where to save results (default: scan_web.json)
 
 
 Examples:
@@ -160,8 +160,8 @@ Options:
 
 Option	Description
 
--f, --file	Input scan results file (JSON)
--t, --type	Output formats: txt, json, html, csv, or all
+- -f, --file	Input scan results file (JSON)
+- -t, --type	Output formats: txt, json, html, csv, or all
 
 
 Examples:
