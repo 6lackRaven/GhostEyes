@@ -1,27 +1,47 @@
-## GhostEyes v2 - Offensive Reconnaissance Toolkit
+# GhostEyes v2.1.0 — Offensive Reconnaissance Toolkit
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
+[![Version](https://img.shields.io/badge/version-v2.1.0-green.svg)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/6lackRaven/GhostEyes?style=social)](https://github.com/6lackRaven/GhostEyes)
 
-<p align="center">
-  <img src="https://private-user-images.githubusercontent.com/202351661/469445619-d59c7e15-68e7-4b9b-9077-0dc9b0bce7d7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMzMzI1MzAsIm5iZiI6MTc1MzMzMjIzMCwicGF0aCI6Ii8yMDIzNTE2NjEvNDY5NDQ1NjE5LWQ1OWM3ZTE1LTY4ZTctNGI5Yi05MDc3LTBkYzliMGJjZTdkNy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDcyNFQwNDQzNTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mZWY0ZTA3NTRlNzk2ZTkxNzU4MWNjZGI5NTRlMWQ3MTFmMWRmZjZlZjI1NTNlYzA1ODI2NzMwMjBiNDJlMjBiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.nJnK0tBCARaDry7etMekQubWmg-yGMiDLlBFvinCVqw" alt="GhostEyes Banner" />
-</p>
+> **Author:** 6lackRaven  
+> **Status:** Active • Stable • Async-first  
+> **Docs:** See [`DOCUMENTATION.md`](DOCUMENTATION.md) • Changelog in [`CHANGELOG.md`](CHANGELOG.md)
 
 ---
 
-**GhostEyes** is an advanced offensive cybersecurity toolkit built with Python.  
-It is designed for **network reconnaissance**, **vulnerability discovery**, and **penetration testing** — all in one modular and powerful tool.
+## 🧠 What is GhostEyes?
+
+**GhostEyes** is an async-first, modular **offensive reconnaissance toolkit** for **network** and **web** recon, plus **report generation** — designed for penetration testers, red teams, and researchers.
+
+- **No nested `asyncio.run()` errors** – fixed in v2.1.0  
+- **Colorized CLI**, **quiet mode**, **custom output path**, and **examples flag**
+- Clean codebase, ready for further v3 refactors (plugins, structured logs, etc.)
 
 ---
 
-## 🚀 Features
+## ✨ Key Features
 
-- 🔍 Network scanning & host discovery  
-- 🌐 Web reconnaissance (subdomains, directories, tech stack)  
-- 🔁 VLAN hopping & Layer 2 attacks  
-- 📡 Real-time device tracking  
-- 📑 Multi-format report generation (HTML, JSON, etc.)
+- **Network Recon**
+  - ARP subnet scanning
+  - VLAN discovery & sampling
+  - Layer 2 traceroute
+  - DHCP snooping
+  - Real-time device tracking
+
+- **Web Recon**
+  - Subdomain brute-force
+  - Directory brute-force
+  - Technology stack detection
+
+- **Reports**
+  - Generate **TXT / JSON / HTML / CSV** from prior scans
+
+- **CLI UX**
+  - `--version`, `--examples`, `--quiet`, `--output`
+  - Colorized output
+  - One single `asyncio.run()` (no runtime loop conflicts)
 
 ---
 
@@ -34,181 +54,222 @@ pip install -r requirements.txt
 ```
 
 
----
-
-## ⚙️ Usage Examples
-
-🔗 Network Scanning
-```
-sudo ./ghosteyes.py net --scan 192.168.1.0/24
-```
-
-🧠 VLAN Discovery
-```
-sudo ./ghosteyes.py net --vlan --duration 60
-```
-🌐 Web Reconnaissance
-```
-./ghosteyes.py web --url https://example.com --tech
-```
-📝 Report Generation
-```
-./ghosteyes.py report --file scan_web.json --type html
-```
-
----
-
-## 🧩 Available Modules
-
-Command	Description
-```
-net --scan	ARP-based subnet scanning
-net --vlan	VLAN discovery and hopping
-net --trace	Layer 2 traceroute
-web --subdomains	Subdomain enumeration
-web --bruteforce	Directory brute-forcing
-```
+Python 3.10+ recommended.
 
 
 ---
 
-## ⚠️ Disclaimer
+🚀 Quick Start
 
-LEGAL NOTICE
+# Show help
+python ghosteyes.py -h
 
-GhostEyes is strictly intended for authorized security testing and educational purposes only.
+# Show version
+python ghosteyes.py --version
+
+# Show practical examples
+python ghosteyes.py --examples
 
 
 ---
 
-## 🚨 WARNING: UNAUTHORIZED USE IS ILLEGAL
+⚙️ Commands & Flags
 
-- You must have explicit written permission to scan or test any network or system.
+Global Flags
 
-- You are solely responsible for how you use this toolkit.
+Flag	Description
 
-- The developers are not liable for any misuse.
+--version	Show version and author, then exit
+--examples	Show common usage examples
+--quiet	Suppress verbose logs
 
 
 
 ---
 
-## ETHICAL USAGE GUIDELINES
+net — Network Reconnaissance
 
-1. Always obtain proper authorization before using GhostEyes.
+Usage:
 
-2. Never target systems you do not own or have permission to test.
+python ghosteyes.py net -i <iface> [--scan CIDR | --vlan | --track | --trace IP | --dhcp] [--duration N] [--output FILE]
 
-3. Respect privacy — do not access or collect personal data.
+Options:
 
-4. Comply with all applicable laws and regulations (e.g., CFAA, GDPR).
+Option	Description
 
+-i, --interface	Network interface (default: eth0)
+-s, --scan CIDR	ARP scan a subnet (e.g., 192.168.1.0/24)
+-v, --vlan	Discover VLANs
+-t, --track	Track live devices
+-r, --trace IP	Layer 2 traceroute to target
+-d, --dhcp	Capture DHCP traffic
+--duration N	Duration in seconds for vlan/track/dhcp (default: 300)
+--output FILE	Where to save results (default: scan_net.json)
+
+
+Examples:
+
+# ARP scan
+python ghosteyes.py net -i eth0 --scan 192.168.1.0/24 --output my_scan.json
+
+# VLAN discovery (2 minutes)
+python ghosteyes.py net -i eth0 --vlan --duration 120
+
+# Track devices (quiet mode)
+python ghosteyes.py net -i wlan0 --track --duration 60 --quiet
+
+
+---
+
+web — Web Reconnaissance
+
+Usage:
+
+python ghosteyes.py web -u <url> [-s WORDLIST] [-b WORDLIST] [-T] [-w N] [--output FILE]
+
+Options:
+
+Option	Description
+
+-u, --url	Target URL (required)
+-s, --subdomains	Subdomain brute-force wordlist
+-b, --bruteforce	Directory brute-force wordlist
+-T, --tech	Detect technology stack
+-w, --workers	Number of concurrent workers (default: 50)
+--output FILE	Where to save results (default: scan_web.json)
+
+
+Examples:
+
+# Subdomain scan + tech detection
+python ghosteyes.py web -u https://example.com -s subdomains.txt -T
+
+# Directory brute-force (quiet mode)
+python ghosteyes.py web -u https://example.com -b dirs.txt --quiet
+
+
+---
+
+report — Report Generation
+
+Usage:
+
+python ghosteyes.py report -f scan_net.json -t html json
+
+Options:
+
+Option	Description
+
+-f, --file	Input scan results file (JSON)
+-t, --type	Output formats: txt, json, html, csv, or all
+
+
+Examples:
+
+# HTML + JSON output
+python ghosteyes.py report -f scan_net.json -t html json
+
+# Everything
+python ghosteyes.py report -f scan_web.json -t all
+
+
+---
+
+📂 Output
+
+Unless overridden via --output, scans are saved to:
+
+scan_net.json for net
+
+scan_web.json for web
 
 
 
 ---
 
-## 👨‍💻 For Professional Use Only
+🗺️ Roadmap (towards v3)
 
-GhostEyes is intended for use by:
+Plugin system & runtime module discovery
 
-- Certified cybersecurity professionals
+Structured JSON logging and log levels
 
-- Penetration testers with valid contracts
+Config file support (ghosteyes.toml / YAML)
 
-- Security researchers with explicit permission
+Parallelized scans with cancellation and timeouts
 
-- Educational institutions in controlled environments
+Packaging (pip install ghosteyes) & self-contained binaries
 
----
+REST API / Web UI
 
-## 📝 By using this tool, you confirm that:
 
-1. You understand and accept these terms.
-
-2. You take full responsibility for your actions.
-
-3. The developers bear no responsibility for misuse.
-
+Read more in CHANGELOG.md.
 
 
 ---
 
-## 📜 License
+⚠️ Legal & Ethical Disclaimer
 
-GhostEyes is licensed under the MIT License.
-See the LICENSE file for full terms.
+GhostEyes is intended strictly for authorized security testing and educational use.
+By using this tool, you accept full responsibility for your actions.
+
+Only scan targets you own or have explicit written permission to test.
+
+Comply with applicable laws (e.g., CFAA, GDPR).
+
+The author(s) are not liable for misuse or damage.
+
 
 
 ---
 
-## 📬 Contact
+📜 License
 
-If you have questions, feedback, or want to collaborate:
-```
-Email: harleystanislas.raven@gmail.com
+MIT — see the LICENSE file.
 
+
+---
+
+💬 Contact
+
+Author: 6lackRaven
+Email:  harleystanislas.raven@gmail.com
 Telegram: Thereal6lackRaven
-
 Facebook: Harley Stanislas
-```
 
 
 ---
 
-## ❤️ Support the Project
+🤝 Contributing
 
-You can support GhostEyes by:
+Contributions are welcome!
 
-- ⭐️ Starring the repository
-
-- 🗣️ Sharing it with your network
-
-- 🐛 Reporting issues or contributing improvements
+1. Fork the repo
 
 
----
+2. Create a feature branch: git checkout -b feature/your-feature
 
 
-## 🤝 Contribution
-
-Thank you to everyone who has contributed to GhostEyes through issues, pull requests, and suggestions! Your support helps make this toolkit better and more reliable.
-
-If you'd like to contribute, please:
-
-1. Fork the repository
-
-2. Create a new branch for your changes (git checkout -b feature/your-feature)
-
-3. Make your changes with clear, concise commits
-
-4. Test your changes to ensure they work correctly
-
-5. Push your branch to your fork (git push origin feature/your-feature)
-
-6. Open a Pull Request describing what you’ve done and why
+3. Commit clean, tested code
 
 
-Please follow the existing code style and be respectful in discussions.
+4. Open a PR with a clear description
 
-All contributions, big or small, are appreciated!
+
+
+Please follow the established code style & be respectful.
 
 
 ---
 
-## 💸 Crypto Donations (Anonymous Support)
+❤️ Support / Donations
 
-If you find my tools helpful and want to support future development anonymously:
-```
-Bitcoin (BTC): bc1qvc8y7z2jguzr7e3fvwyf09l3me94mqk06nz3hj
+If you’d like to support continued open-source development:
 
-Ethereum (ETH): 0x58bC732d4279321F1E4A8cA57eD2Ad16ed5A2e15
+Bitcoin (BTC):   bc1qvc8y7z2jguzr7e3fvwyf09l3me94mqk06nz3hj
+Ethereum (ETH):  0x58bC732d4279321F1E4A8cA57eD2Ad16ed5A2e15
+USDT (ERC20):    0x58bC732d4279321F1E4A8cA57eD2Ad16ed5A2e15
+BNB (BEP20):     0x58bC732d4279321F1E4A8cA57eD2Ad16ed5A2e15
+Solana (SOL):    E7x7ak3H6ob2eHbgsbfgVXpEJyVqMPUFPBtkuEUKj2cq
 
-USDT (ERC20): 0x58bC732d4279321F1E4A8cA57eD2Ad16ed5A2e15
+Thank you for supporting independent security tooling 🙏
 
-BNB (BEP20): 0x58bC732d4279321F1E4A8cA57eD2Ad16ed5A2e15
-
-Solana (SOL): E7x7ak3H6ob2eHbgsbfgVXpEJyVqMPUFPBtkuEUKj2cq
-```
-
-🙏 Every contribution helps me build more open-source tools and share cybersecurity knowledge. Thank you!
