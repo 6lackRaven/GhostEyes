@@ -231,10 +231,10 @@ MIT — see the LICENSE file.
 
 💬 Contact
 
-Author: 6lackRaven
-Email:  harleystanislas.raven@gmail.com
-Telegram: Thereal6lackRaven
-Facebook: Harley Stanislas
+- Author: 6lackRaven
+- Email:  harleystanislas.raven@gmail.com
+- Telegram: Thereal6lackRaven
+- Facebook: Harley Stanislas
 
 
 ---
@@ -265,11 +265,11 @@ Please follow the established code style & be respectful.
 
 If you’d like to support continued open-source development:
 
-Bitcoin (BTC):   bc1qvc8y7z2jguzr7e3fvwyf09l3me94mqk06nz3hj
-Ethereum (ETH):  0x58bC732d4279321F1E4A8cA57eD2Ad16ed5A2e15
-USDT (ERC20):    0x58bC732d4279321F1E4A8cA57eD2Ad16ed5A2e15
-BNB (BEP20):     0x58bC732d4279321F1E4A8cA57eD2Ad16ed5A2e15
-Solana (SOL):    E7x7ak3H6ob2eHbgsbfgVXpEJyVqMPUFPBtkuEUKj2cq
+- Bitcoin (BTC):   bc1qvc8y7z2jguzr7e3fvwyf09l3me94mqk06nz3hj
+- Ethereum (ETH):  0x58bC732d4279321F1E4A8cA57eD2Ad16ed5A2e15
+- USDT (ERC20):    0x58bC732d4279321F1E4A8cA57eD2Ad16ed5A2e15
+- BNB (BEP20):     0x58bC732d4279321F1E4A8cA57eD2Ad16ed5A2e15
+- Solana (SOL):    E7x7ak3H6ob2eHbgsbfgVXpEJyVqMPUFPBtkuEUKj2cq
 
 Thank you for supporting independent security tooling 🙏
 
