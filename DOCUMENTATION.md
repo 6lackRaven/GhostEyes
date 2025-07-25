@@ -43,9 +43,9 @@ Command	Purpose
 net	Network reconnaissance
 web	Web reconnaissance
 report	Generate multi-format reports
--h/--help	Show help for any command
---version	Show current version and author info
---examples	Display common usage examples
+- -h/--help	Show help for any command
+- --version	Show current version and author info
+- --examples	Display common usage examples
 
 
 
@@ -55,10 +55,10 @@ report	Generate multi-format reports
 
 Flag	Description
 
--h, --help	Show all commands and usage details
---version	Show version (e.g., GhostEyes v2.1.0 by 6lackRaven)
---examples	Display ready-to-use command examples
---quiet	Reduce verbosity (only show critical results)
+- -h, --help	Show all commands and usage details
+- --version	Show version (e.g., GhostEyes v2.1.0 by 6lackRaven)
+- --examples	Display ready-to-use command examples
+- --quiet	Reduce verbosity (only show critical results)
 
 
 
@@ -74,14 +74,14 @@ Options:
 
 Option	Description
 
--i, --interface	Network interface (e.g., eth0, wlan0)
--s, --scan CIDR	ARP-based subnet scanning
--v, --vlan	Discover VLANs
--t, --track	Track live devices in real time
--r, --trace IP	Layer 2 traceroute to a target
--d, --dhcp	Capture DHCP traffic
---duration N	Duration for vlan/track/dhcp (default: 300s)
---output FILE	Save results (default: scan_net.json)
+- -i, --interface	Network interface (e.g., eth0, wlan0)
+- -s, --scan CIDR	ARP-based subnet scanning
+- -v, --vlan	Discover VLANs
+- -t, --track	Track live devices in real time
+- -r, --trace IP	Layer 2 traceroute to a target
+- -d, --dhcp	Capture DHCP traffic
+- --duration N	Duration for vlan/track/dhcp (default: 300s)
+- --output FILE	Save results (default: scan_net.json)
 
 
 Examples:
@@ -121,12 +121,12 @@ Options:
 
 Option	Description
 
--u, --url	Target URL (e.g., https://example.com)
--s, --subdomains	Subdomain brute-force (wordlist required)
--b, --bruteforce	Directory brute-force (wordlist required)
--T, --tech	Detect web technology stack
--w, --workers N	Concurrent workers (default: 50)
---output FILE	Save results (default: scan_web.json)
+- -u, --url	Target URL (e.g., https://example.com)
+- -s, --subdomains	Subdomain brute-force (wordlist required)
+- -b, --bruteforce	Directory brute-force (wordlist required)
+- -T, --tech	Detect web technology stack
+- -w, --workers N	Concurrent workers (default: 50)
+- --output FILE	Save results (default: scan_web.json)
 
 
 Examples:
@@ -237,10 +237,10 @@ Improved help system and user experience.
 
 📬 Contact & Support
 
-Author: 6lackRaven
-Email:  harleystanislas.raven@gmail.com
-Telegram: Thereal6lackRaven
-Facebook: Harley Stanislas
+- Author: 6lackRaven
+- Email:  harleystanislas.raven@gmail.com
+- Telegram: Thereal6lackRaven
+- Facebook: Harley Stanislas
 
 For bug reports: GitHub Issues
 
