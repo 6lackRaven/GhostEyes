@@ -232,9 +232,10 @@ MIT — see the LICENSE file.
 💬 Contact
 
 - Author: 6lackRaven
-- Email:  harleystanislas.raven@gmail.com
-- Telegram: Thereal6lackRaven
-- Facebook: Harley Stanislas
+- Reddit:  Raven_Obsidian
+- Telegram: RavenObsidian
+- Facebook: Raven Obsidian
+- Youtube: Raven Obsidian
 
 
 ---
